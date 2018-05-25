@@ -7,7 +7,7 @@ Student management system contains the following things under a single platform
 Student area
 Teacher area
 HOD area
-Tools Used:
+##Tools Used:
 
 The tools used in this projects are,
 
@@ -16,7 +16,7 @@ C++
 OOP
  
 
-Project Description:
+## Project Description:
 
 This application is consisting of various features and properties, first of all you will be prompted to login into the application via login class and according to your input you will be redirected to your required class i.e Student, Teacher or HOD.
 
