@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>student</class>
+ <widget class="QMainWindow" name="student">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1786</width>
+    <height>1358</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg);</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2261</width>
+      <height>1111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;color:white;</string>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>160</y>
+       <width>1461</width>
+       <height>1231</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+border: 0;
+width:100px;
+}
+
+QTabWidget::pane {
+border-top: 1px solid #444;
+position: absolute;
+
+}
+
+QTabBar {
+background: #222;
+color: #666;
+border-radius: 0;
+border: 2px solid #222;
+width:200px;
+border-radius:10px;
+
+}
+
+QTabBar::tab:top {
+margin: 1px 1px 0 0;
+padding: 4px 8px;
+border-bottom: 3px solid transparent;
+height:30px;
+width:100px;
+
+}
+
+QTabBar::tab:selected {
+color: white;
+border: 0;
+}
+
+QTabBar::tab:top:hover {
+border-bottom: 3px solid #444;
+}
+QTabBar::tab:top:selected {
+border-bottom: 3px solid #1086e2;
+}
+
+QTabBar::tab:hover,
+QTabBar::tab:focus {
+
+}</string>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Home</string>
+      </attribute>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>20</y>
+         <width>1781</width>
+         <height>641</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgba(255, 255, 255,90);
+border-radius:20px;</string>
+       </property>
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>50</y>
+          <width>251</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Name:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>140</y>
+          <width>251</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>father's Name:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>220</y>
+          <width>241</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Section:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>310</y>
+          <width>251</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Department:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_6">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>380</y>
+          <width>261</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>No. Of Courses</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="student_name">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>60</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="fathers_name">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>140</y>
+          <width>301</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="section">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>230</y>
+          <width>321</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="department">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>310</y>
+          <width>321</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="noofcourses">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>400</y>
+          <width>321</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_section">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>460</y>
+          <width>261</width>
+          <height>61</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:none;
+font: 22pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Marks</string>
+      </attribute>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>100</y>
+         <width>641</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+       <widget class="QLabel" name="label_8">
+        <property name="geometry">
+         <rect>
+          <x>150</x>
+          <y>0</y>
+          <width>301</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Computer Programming</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cpMid1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid-1:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cpMid2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>70</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid -2:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cpSessional">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sessionals:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cpfinal">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Final:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cp_total">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>160</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_mid1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_mid2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>70</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_sessional">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>100</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_final">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>130</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_total">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>160</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_cp_gpa">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>89</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>GPA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cp_gpa">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>90</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;color:red</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>100</y>
+         <width>641</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>10</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Digital Logic Design</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_final">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>140</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Final:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_mid1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>50</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_mid1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>50</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid-1:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_sessional">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>110</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_final">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>140</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_total">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>170</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_mid2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>80</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_total">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>170</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_sessional">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>110</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sessionals:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_mid2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>80</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid -2:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_dld_gpa">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>100</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;color:red</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_dld_gpa">
+        <property name="geometry">
+         <rect>
+          <x>340</x>
+          <y>99</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>GPA</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>320</y>
+         <width>641</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>250</x>
+          <y>10</y>
+          <width>171</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_final">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>130</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Final:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_mid1">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>40</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_mid1">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid-1:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_sessional">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>100</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_final">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>130</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_total">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>160</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_mid2">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>70</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_total">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>160</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_sessional">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>100</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sessionals:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_mid2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>70</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid -2:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_38">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>0</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Pak. Studies</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ps_gpa">
+        <property name="geometry">
+         <rect>
+          <x>370</x>
+          <y>80</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>GPA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pst_gpa">
+        <property name="geometry">
+         <rect>
+          <x>430</x>
+          <y>81</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;color:red</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_7" native="true">
+       <property name="geometry">
+        <rect>
+         <x>730</x>
+         <y>320</y>
+         <width>641</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>0</y>
+          <width>271</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>English Composition</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_final">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Final:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_mid1">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>40</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_mid1">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>40</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid-1:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_sessional">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>100</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_mid1_final">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>130</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_total">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>160</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_mid2">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>70</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_total">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>160</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_sessional">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>100</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sessionals:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_mid2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>70</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid -2:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_ec_gpa">
+        <property name="geometry">
+         <rect>
+          <x>330</x>
+          <y>90</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>GPA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_eng_gpa">
+        <property name="geometry">
+         <rect>
+          <x>390</x>
+          <y>91</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;color:red</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>20</y>
+         <width>301</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 24pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Marks</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>550</y>
+         <width>641</width>
+         <height>201</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>220</x>
+          <y>9</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Calculus-2</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_33">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>140</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Final:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_mid1">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>50</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_34">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>50</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid-1:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_sessional">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>110</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_final">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>140</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_35">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>170</y>
+          <width>61</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Total</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_mid2">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>80</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_total">
+        <property name="geometry">
+         <rect>
+          <x>110</x>
+          <y>170</y>
+          <width>151</width>
+          <height>22</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_36">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Sessionals:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_37">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>80</y>
+          <width>81</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Mid -2:</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_50">
+        <property name="geometry">
+         <rect>
+          <x>367</x>
+          <y>103</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>GPA</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_cal_gpa">
+        <property name="geometry">
+         <rect>
+          <x>427</x>
+          <y>104</y>
+          <width>111</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border:none;color:red</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Attendence</string>
+      </attribute>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>130</y>
+         <width>1101</width>
+         <height>671</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/buttons/calender.jpg);</string>
+       </property>
+       <property name="text">
+        <string>TextLabel</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sun1">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mon2">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tues3">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>210</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wed4">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_thurs5">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>210</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fri6">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>180</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sat7">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>200</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sat14">
+       <property name="geometry">
+        <rect>
+         <x>1000</x>
+         <y>330</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fri13">
+       <property name="geometry">
+        <rect>
+         <x>840</x>
+         <y>310</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_thurs12">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>340</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wed11">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>340</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tues10">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>340</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mon9">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>340</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sun8">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>320</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sun15">
+       <property name="geometry">
+        <rect>
+         <x>80</x>
+         <y>470</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mon16">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>460</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tues17">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>470</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wed18">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>470</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:black;
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_thurs19">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>470</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fri20">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>450</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sat21">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>470</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sat28">
+       <property name="geometry">
+        <rect>
+         <x>990</x>
+         <y>590</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_fri27">
+       <property name="geometry">
+        <rect>
+         <x>830</x>
+         <y>580</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_thurs26">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>600</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_wed25">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>600</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tues24">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>590</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mon23">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>590</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sun22">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>590</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sun29">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>710</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mon30">
+       <property name="geometry">
+        <rect>
+         <x>220</x>
+         <y>720</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_tues31">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>720</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(85, 0, 0);
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_monthstd">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>40</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(255, 255, 255,90);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>January</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Feburary</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>March</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>April</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>May</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Agust</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>September</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>October</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>November</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>December</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="button_view_attendence">
+       <property name="geometry">
+        <rect>
+         <x>940</x>
+         <y>20</y>
+         <width>181</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 255, 255);
+
+
+font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>View Attendence</string>
+       </property>
+      </widget>
+      <zorder>label_9</zorder>
+      <zorder>combo_monthstd</zorder>
+      <zorder>button_view_attendence</zorder>
+      <zorder>label_tues31</zorder>
+      <zorder>label_mon23</zorder>
+      <zorder>label_tues17</zorder>
+      <zorder>label_thurs19</zorder>
+      <zorder>label_sun15</zorder>
+      <zorder>label_mon30</zorder>
+      <zorder>label_sun29</zorder>
+      <zorder>label_tues24</zorder>
+      <zorder>label_thurs12</zorder>
+      <zorder>label_mon9</zorder>
+      <zorder>label_thurs5</zorder>
+      <zorder>label_sat14</zorder>
+      <zorder>label_fri27</zorder>
+      <zorder>label_mon16</zorder>
+      <zorder>label_thurs26</zorder>
+      <zorder>label_tues10</zorder>
+      <zorder>label_sat28</zorder>
+      <zorder>label_fri20</zorder>
+      <zorder>label_wed4</zorder>
+      <zorder>label_tues3</zorder>
+      <zorder>label_wed18</zorder>
+      <zorder>label_fri6</zorder>
+      <zorder>label_mon2</zorder>
+      <zorder>label_sun22</zorder>
+      <zorder>label_sun1</zorder>
+      <zorder>label_sat21</zorder>
+      <zorder>label_wed11</zorder>
+      <zorder>label_sat7</zorder>
+      <zorder>label_wed25</zorder>
+      <zorder>label_fri13</zorder>
+      <zorder>label_sun8</zorder>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>840</x>
+       <y>30</y>
+       <width>321</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: rgb(255, 255, 255);
+font: 28pt &quot;MS Shell Dlg 2&quot;;</string>
+     </property>
+     <property name="text">
+      <string>Student Panel</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>login</class>
+ <widget class="QMainWindow" name="login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>958</width>
+    <height>587</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg);</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>971</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:#a9a9a9;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>60</y>
+       <width>541</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:none;
+font: 24pt &quot;Urban Jungle&quot;;
+color:white;
+</string>
+     </property>
+     <property name="text">
+      <string>Student Management System</string>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_2" native="true">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>170</y>
+       <width>661</width>
+       <height>281</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-radius:30px;
+background:rgba(241, 234, 255,93);
+</string>
+     </property>
+     <widget class="QLineEdit" name="username">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>46</y>
+        <width>581</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;color:rgb(42, 42, 42)</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="password">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>130</y>
+        <width>581</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">border-radius:10px;color:rgb(42, 42, 42)</string>
+      </property>
+      <property name="echoMode">
+       <enum>QLineEdit::Password</enum>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="login_button">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>210</y>
+        <width>331</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>true</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#login_button{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+border-repeat:none;
+background:none;
+color:#a3a3a3;
+}
+#login_button:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+      </property>
+      <property name="text">
+       <string>Login</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

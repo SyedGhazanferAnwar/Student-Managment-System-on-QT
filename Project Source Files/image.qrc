@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/setImage">
+        <file>StudentNights.jpeg</file>
+        <file>Windows-XP-wallpaper-15.jpg</file>
+        <file>cool-high-resolution-wallpapers-7.jpg</file>
+        <file>Red Backgrounds wallpaper Red Backgrounds hd wallpaper background ....jpg</file>
+        <file>main-road-1373497_1920.jpg</file>
+        <file>NU_Logo.png</file>
+        <file>small_normal.png</file>
+    </qresource>
+</RCC>

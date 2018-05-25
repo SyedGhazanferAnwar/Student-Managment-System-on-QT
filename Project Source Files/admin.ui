@@ -1,0 +1,1918 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>admin</class>
+ <widget class="QMainWindow" name="admin">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1899</width>
+    <height>1054</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">padding-left:50px;
+background-color: rgb(0, 0, 0);
+color:white;
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-image: url(:/images/1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg);
+border-radius:none;</string>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-140</x>
+      <y>-130</y>
+      <width>2311</width>
+      <height>1351</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;
+border-radius:none;</string>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>810</x>
+       <y>130</y>
+       <width>471</width>
+       <height>111</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: italic 36pt &quot;Franklin Gothic Demi&quot;;
+text-decoration: underline;
+color: rgb(255, 255, 255);
+background:none;</string>
+     </property>
+     <property name="text">
+      <string>ADMIN PANEL</string>
+     </property>
+    </widget>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>150</x>
+       <y>313</y>
+       <width>1791</width>
+       <height>831</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="sizeIncrement">
+      <size>
+       <width>0</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+border: 0;
+}
+
+QTabWidget::pane {
+border-top: 1px solid #444;
+position: absolute;
+
+}
+
+QTabBar {
+background: #222;
+color: #666;
+border-radius: 0;
+border: 2px solid #222;
+
+}
+
+QTabBar::tab:top {
+margin: 1px 1px 0 0;
+padding: 4px 8px;
+border-bottom: 3px solid transparent;
+height:30px;
+}
+
+QTabBar::tab:selected {
+color: white;
+border: 0;
+}
+
+QTabBar::tab:top:hover {
+border-bottom: 3px solid #444;
+}
+QTabBar::tab:top:selected {
+border-bottom: 3px solid #1086e2;
+}
+
+QTabBar::tab:hover,
+QTabBar::tab:focus {
+
+}</string>
+     </property>
+     <property name="tabPosition">
+      <enum>QTabWidget::North</enum>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Triangular</enum>
+     </property>
+     <property name="currentIndex">
+      <number>1</number>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>32</width>
+       <height>32</height>
+      </size>
+     </property>
+     <property name="usesScrollButtons">
+      <bool>false</bool>
+     </property>
+     <property name="documentMode">
+      <bool>true</bool>
+     </property>
+     <property name="tabBarAutoHide">
+      <bool>false</bool>
+     </property>
+     <widget class="QWidget" name="home">
+      <attribute name="title">
+       <string>Home</string>
+      </attribute>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>90</y>
+         <width>871</width>
+         <height>301</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgba(225, 225, 225,93);
+border-radius: 2;</string>
+       </property>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: none;</string>
+        </property>
+        <property name="text">
+         <string>Name: </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>10</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Name:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_6">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>10</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Robert</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>60</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Father's name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_7">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>60</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Thomas</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>50</x>
+          <y>110</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Gender:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_8">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>110</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Male</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>-10</x>
+          <y>160</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Date OF Join:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_9">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>160</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>22-Aug-2017</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>70</x>
+          <y>210</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>CNIC#</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_10">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>210</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>42401-854123987-1</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_10">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>30</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Personal Info</string>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_6" native="true">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>500</y>
+         <width>871</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgba(225, 225, 225,93);
+border-radius: 2;</string>
+       </property>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>20</y>
+          <width>51</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background: none;</string>
+        </property>
+        <property name="text">
+         <string>Name: </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>10</y>
+          <width>221</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Matriculation</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_11">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>10</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Bahria School</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_17">
+        <property name="geometry">
+         <rect>
+          <x>-20</x>
+          <y>60</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Graduation</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_12">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>60</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Oxford University</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_18">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>110</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Masters</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_13">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>110</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>OXford University</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_19">
+        <property name="geometry">
+         <rect>
+          <x>-50</x>
+          <y>160</y>
+          <width>271</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Extra Qualification</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_14">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>160</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>ACCP-Pro course</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_20">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>430</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Qualification</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="add_student">
+      <attribute name="title">
+       <string>Add Student</string>
+      </attribute>
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>110</y>
+         <width>1171</width>
+         <height>731</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(159, 159, 159,90);
+border-radius:30px;</string>
+       </property>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="geometry">
+         <rect>
+          <x>570</x>
+          <y>380</y>
+          <width>291</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#pushButton_2{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+	color: rgb(255, 255, 255);
+border-repeat:none;
+padding:0px;
+background:none;
+color:#a3a3a3;
+}
+#pushButton_2:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>50</y>
+          <width>501</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:11px;color:white;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_2">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>130</y>
+          <width>501</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:10px;
+color:white;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Father's Name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_3">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>210</y>
+          <width>501</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:10px;color:white;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Section</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_4">
+        <property name="geometry">
+         <rect>
+          <x>360</x>
+          <y>290</y>
+          <width>501</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">border-radius:10px;color:white</string>
+        </property>
+        <property name="placeholderText">
+         <string>Passwod</string>
+        </property>
+       </widget>
+       <widget class="QWidget" name="widget_5" native="true">
+        <property name="geometry">
+         <rect>
+          <x>300</x>
+          <y>340</y>
+          <width>311</width>
+          <height>181</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding:0px;
+background:transparent;</string>
+        </property>
+        <widget class="QComboBox" name="comboBox">
+         <property name="geometry">
+          <rect>
+           <x>50</x>
+           <y>40</y>
+           <width>171</width>
+           <height>41</height>
+          </rect>
+         </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color: rgba(255, 255, 255,97);</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Electrical</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Computer Science</string>
+          </property>
+         </item>
+        </widget>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="view_student">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="MinimumExpanding" vsizetype="Preferred">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <attribute name="title">
+       <string>Student Info</string>
+      </attribute>
+      <widget class="QComboBox" name="combo_std_depart">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>30</y>
+         <width>271</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);
+border-radius:none;</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="show_button">
+       <property name="geometry">
+        <rect>
+         <x>50</x>
+         <y>730</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#show_button{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+padding:0px;
+border-repeat:none;
+background:none;
+color:#a3a3a3;
+}
+#show_button:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Show</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="delete_std">
+       <property name="geometry">
+        <rect>
+         <x>420</x>
+         <y>720</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#delete_std{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+padding:0px;
+border-repeat:none;
+background:none;
+color:#a3a3a3;
+}
+#delete_std:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+       </property>
+       <property name="text">
+        <string>Delete</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_hint1">
+       <property name="geometry">
+        <rect>
+         <x>650</x>
+         <y>310</y>
+         <width>391</width>
+         <height>111</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 22pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>&lt;&lt; Double click on ID </string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_pic_teach">
+       <property name="geometry">
+        <rect>
+         <x>1070</x>
+         <y>150</y>
+         <width>141</width>
+         <height>161</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-color: rgb(85, 0, 127);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="plain_teach_detail">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>100</y>
+         <width>831</width>
+         <height>601</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>MS Shell Dlg 2</family>
+         <pointsize>12</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(93, 93, 97,99);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+padding-left: 400px;
+padding-top:135px;</string>
+       </property>
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_name">
+       <property name="geometry">
+        <rect>
+         <x>471</x>
+         <y>290</y>
+         <width>131</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Name:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_Fname">
+       <property name="geometry">
+        <rect>
+         <x>471</x>
+         <y>340</y>
+         <width>181</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Father Name:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_department">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>240</y>
+         <width>171</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
+opacity:1;
+color:#fff;</string>
+       </property>
+       <property name="text">
+        <string>Department:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_section">
+       <property name="geometry">
+        <rect>
+         <x>471</x>
+         <y>380</y>
+         <width>161</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Section:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_9">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>430</y>
+         <width>161</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Password:</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_5">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>230</y>
+         <width>171</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="edit">
+       <property name="geometry">
+        <rect>
+         <x>690</x>
+         <y>720</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#edit{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+border-repeat:none;
+padding:0px;
+background:none;
+color:#a3a3a3;
+}
+#edit:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+       </property>
+       <property name="text">
+        <string>Edit</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="save_admin">
+       <property name="geometry">
+        <rect>
+         <x>950</x>
+         <y>720</y>
+         <width>251</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#save_admin{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+border-repeat:none;
+padding:0px;
+background:none;
+color:#a3a3a3;
+}
+#save_admin:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="list_show_teacher">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>100</y>
+         <width>256</width>
+         <height>561</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgba(93, 93, 97,99);
+color:rgb(255, 255, 255);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+
+padding-top:50px;</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="line_warning_count">
+       <property name="geometry">
+        <rect>
+         <x>570</x>
+         <y>130</y>
+         <width>71</width>
+         <height>31</height>
+        </rect>
+       </property>
+      </widget>
+      <zorder>label_hint1</zorder>
+      <zorder>plain_teach_detail</zorder>
+      <zorder>combo_std_depart</zorder>
+      <zorder>show_button</zorder>
+      <zorder>delete_std</zorder>
+      <zorder>label_pic_teach</zorder>
+      <zorder>label_name</zorder>
+      <zorder>label_Fname</zorder>
+      <zorder>label_department</zorder>
+      <zorder>label_section</zorder>
+      <zorder>label_9</zorder>
+      <zorder>lineEdit_5</zorder>
+      <zorder>edit</zorder>
+      <zorder>save_admin</zorder>
+      <zorder>list_show_teacher</zorder>
+      <zorder>line_warning_count</zorder>
+     </widget>
+     <widget class="QWidget" name="add_teacher">
+      <attribute name="title">
+       <string>Add Teacher</string>
+      </attribute>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>170</x>
+         <y>40</y>
+         <width>1201</width>
+         <height>781</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(159, 159, 159,90);
+border-radius:30px;</string>
+       </property>
+       <widget class="QLineEdit" name="line_fname_teach">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>190</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;border:none;padding-left:50px;
+border-radius:20px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Father's Name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="dob_edit">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>121</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;border:none;padding-left:50px;
+border-radius:20px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Date-Of-Birth</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_pass_teach">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>330</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:white;border:none;padding-left:50px;
+border-radius:20px;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+        <property name="placeholderText">
+         <string>Password</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_name_teach">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>50</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: white;border:none;padding-left:50px;
+border-radius:20px;</string>
+        </property>
+        <property name="placeholderText">
+         <string>Name</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="Add_teacher">
+        <property name="geometry">
+         <rect>
+          <x>350</x>
+          <y>490</y>
+          <width>281</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">#Add_teacher{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+border-repeat:none;
+padding:0px;
+background:none;
+color:#a3a3a3;
+}
+#Add_teacher:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+</string>
+        </property>
+        <property name="text">
+         <string>Add</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_teach_course">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>260</y>
+          <width>531</width>
+          <height>51</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left:50px;
+border-radius:20px;
+color: rgb(255, 255, 255);</string>
+        </property>
+        <property name="placeholderText">
+         <string>Gender</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_F">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>190</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section F-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_G">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>220</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section G-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_C">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>130</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section C-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_D">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>160</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section D-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_B">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>100</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section B-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_A">
+        <property name="geometry">
+         <rect>
+          <x>710</x>
+          <y>70</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section A-CS</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_A_EE">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>70</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section A-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_F_EE">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>190</y>
+          <width>171</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section F-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_G_EE">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>220</y>
+          <width>171</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section G-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_C_EE">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>130</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section C-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_D_EE">
+        <property name="enabled">
+         <bool>true</bool>
+        </property>
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>160</y>
+          <width>161</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section D-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="check_B_EE">
+        <property name="geometry">
+         <rect>
+          <x>880</x>
+          <y>100</y>
+          <width>151</width>
+          <height>21</height>
+         </rect>
+        </property>
+        <property name="acceptDrops">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QCheckBox{
+background:none;
+border-radius:3px;}
+ QCheckBox::indicator {
+     width: 18px;
+     height: 18px;
+background:none;
+ }
+
+  QCheckBox::indicator:checked
+  {
+    image: url(:/chkbox/other images/dart117_checkbox_disable.png);
+  }
+  QCheckBox::indicator:unchecked
+  {
+image:url(:/chkbox/other images/uncheck.png);
+  }
+
+
+ 
+
+
+ 
+  
+</string>
+        </property>
+        <property name="text">
+         <string>Section B-EE</string>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="combo_teacher_course">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>460</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding:8px;
+border-radius:0px;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>Electrical</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Computer Science</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QLabel" name="label_7">
+        <property name="geometry">
+         <rect>
+          <x>-30</x>
+          <y>470</y>
+          <width>181</width>
+          <height>16</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding:none;
+background:none</string>
+        </property>
+        <property name="text">
+         <string>select Department</string>
+        </property>
+       </widget>
+       <widget class="QComboBox" name="comboBox_teach_post">
+        <property name="geometry">
+         <rect>
+          <x>130</x>
+          <y>510</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">padding-left: 8px;
+background:rgba(255, 255, 255,50);</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>460</y>
+         <width>181</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding:none;
+background:none</string>
+       </property>
+       <property name="text">
+        <string>Select course</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>560</y>
+         <width>161</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding:none;
+background:none</string>
+       </property>
+       <property name="text">
+        <string>Select Post</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="combo_teacher">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>450</y>
+         <width>151</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">padding:8px;padding-left: 8px;
+background:rgba(255, 255, 255,50);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>English</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CP</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PST</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DLD</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>CALCULUS-2</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

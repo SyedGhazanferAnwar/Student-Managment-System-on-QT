@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>teacher_access</class>
+ <widget class="QMainWindow" name="teacher_access">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1281</width>
+    <height>966</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/setImage/main-road-1373497_1920.jpg);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>60</y>
+      <width>1201</width>
+      <height>791</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTabWidget {
+border: 0;
+}
+
+QTabWidget::pane {
+border-top: 1px solid #444;
+position: absolute;
+
+}
+
+QTabBar {
+background: #222;
+color: #666;
+border-radius: 0;
+border: 2px solid #222;
+
+}
+
+QTabBar::tab:top {
+margin: 1px 1px 0 0;
+padding: 4px 8px;
+border-bottom: 3px solid transparent;
+height:30px;
+}
+
+QTabBar::tab:selected {
+color: white;
+border: 0;
+}
+
+QTabBar::tab:top:hover {
+border-bottom: 3px solid #444;
+}
+QTabBar::tab:top:selected {
+border-bottom: 3px solid #1086e2;
+}
+
+QTabBar::tab:hover,
+QTabBar::tab:focus {
+
+}</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Teacher Info</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Upload Marks</string>
+     </attribute>
+     <widget class="QListWidget" name="list_show_teacher">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>90</y>
+        <width>251</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgba(255, 255, 255,95);
+font: 87 14pt &quot;Arial&quot;;</string>
+      </property>
+     </widget>
+     <widget class="QPlainTextEdit" name="plain_teach_detail">
+      <property name="geometry">
+       <rect>
+        <x>300</x>
+        <y>90</y>
+        <width>831</width>
+        <height>571</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>14</pointsize>
+        <weight>10</weight>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background: rgba(255, 255, 255,95);
+font: 87 14pt &quot;Arial&quot;;
+padding-left: 300px;
+padding-top:50px;
+height:200px;</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>231</width>
+        <height>31</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="button_Show_teach">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>700</y>
+        <width>93</width>
+        <height>28</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">color:rgb(255, 255, 255);</string>
+      </property>
+      <property name="text">
+       <string>PushButton</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>Upload Attendence</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1281</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,24 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>bg.jpg</file>
+        <file>login-bg.jpg</file>
+        <file>signup-bg.jpg</file>
+        <file>white.jpg</file>
+        <file>bg2.jpg</file>
+        <file>bg-raw.jpg</file>
+        <file>1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg</file>
+    </qresource>
+    <qresource prefix="/buttons">
+        <file>b_l_n.png</file>
+        <file>b_l_p.png</file>
+        <file>downarrow.png</file>
+        <file>calender.jpg</file>
+    </qresource>
+    <qresource prefix="/chkbox">
+        <file>other images/dart117_checkbox_disable.png</file>
+        <file>other images/dart117_checkbox_unselected.png</file>
+        <file>other images/dart117_list.png</file>
+        <file>other images/dart117_unchecked.png</file>
+        <file>other images/uncheck.png</file>
+    </qresource>
+</RCC>

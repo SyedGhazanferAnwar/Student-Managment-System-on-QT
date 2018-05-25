@@ -1,0 +1,1824 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>teacher_acess_n</class>
+ <widget class="QMainWindow" name="teacher_acess_n">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1856</width>
+    <height>1143</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-image: url(:/images/1920x1080-data-out-51-3936802-black-theme-wallpaper-1080p.jpg);
+color:white;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>2031</width>
+      <height>1441</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:transparent;</string>
+    </property>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>30</y>
+       <width>1721</width>
+       <height>1081</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QTabWidget {
+border: 0;
+}
+
+QTabWidget::pane {
+border-top: 1px solid #444;
+position: absolute;
+
+}
+
+QTabBar {
+background: #222;
+color: #666;
+border-radius: 0;
+border: 2px solid #222;
+
+}
+
+QTabBar::tab:top {
+margin: 1px 1px 0 0;
+padding: 4px 8px;
+border-bottom: 3px solid transparent;
+height:30px;
+}
+
+QTabBar::tab:selected {
+color: white;
+border: 0;
+}
+
+QTabBar::tab:top:hover {
+border-bottom: 3px solid #444;
+}
+QTabBar::tab:top:selected {
+border-bottom: 3px solid #1086e2;
+}
+
+QTabBar::tab:hover,
+QTabBar::tab:focus {
+
+}</string>
+     </property>
+     <property name="tabShape">
+      <enum>QTabWidget::Rounded</enum>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Home</string>
+      </attribute>
+      <widget class="QWidget" name="widget_3" native="true">
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>130</y>
+         <width>871</width>
+         <height>391</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background: rgba(225, 225, 225,93);
+border-radius: 2;</string>
+       </property>
+       <widget class="QLabel" name="label_5">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Name:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_name_teacher">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>10</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_11">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>60</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Father's name</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_fname_teach">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>60</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_12">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>110</y>
+          <width>151</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Gender:</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="lineEdit_8">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>110</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>Male</string>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_13">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>160</y>
+          <width>251</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Course</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_course_teach">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>160</y>
+          <width>161</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_14">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>210</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>ID</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_id_teach">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>210</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_15">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>260</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Department</string>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_depart_teach">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>260</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLineEdit" name="line_post">
+        <property name="geometry">
+         <rect>
+          <x>230</x>
+          <y>310</y>
+          <width>171</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="readOnly">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_16">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>310</y>
+          <width>141</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;
+font: 16pt &quot;MS Shell Dlg 2&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Post</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="label_21">
+       <property name="geometry">
+        <rect>
+         <x>70</x>
+         <y>60</y>
+         <width>281</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:none;
+font: 75 16pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Personal Info</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="Update_Marks">
+      <attribute name="title">
+       <string>Update_Marks</string>
+      </attribute>
+      <widget class="QPushButton" name="button_show_teach">
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>780</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>Show list</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="plain_teach_marks">
+       <property name="geometry">
+        <rect>
+         <x>480</x>
+         <y>176</y>
+         <width>701</width>
+         <height>581</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);
+font: 12pt &quot;MS Shell Dlg 2&quot;;
+padding-left: 300px;
+padding-top:50px;</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="list_teach_sec">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>170</y>
+         <width>231</width>
+         <height>591</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="list_std_view">
+       <property name="geometry">
+        <rect>
+         <x>1330</x>
+         <y>180</y>
+         <width>251</width>
+         <height>571</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,90);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mid1">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>360</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Mid-1 Marks</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mid2">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>420</y>
+         <width>111</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Mid-2 Marks</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_final">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>540</y>
+         <width>101</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Final Marks</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_sessional">
+       <property name="geometry">
+        <rect>
+         <x>520</x>
+         <y>480</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Sessional Marks</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_edit_mu">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>790</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>EDIT</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_save_mu">
+       <property name="geometry">
+        <rect>
+         <x>900</x>
+         <y>790</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+color:black;</string>
+       </property>
+       <property name="text">
+        <string>Upload</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_std_name">
+       <property name="geometry">
+        <rect>
+         <x>750</x>
+         <y>200</y>
+         <width>201</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;
+text-decoration: underline;</string>
+       </property>
+       <property name="text">
+        <string>Name of student</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_time">
+       <property name="geometry">
+        <rect>
+         <x>1500</x>
+         <y>20</y>
+         <width>171</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 75 11pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_mid1">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>360</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sessional">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>480</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_mid2">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>420</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_finalmarks">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>540</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_total">
+       <property name="geometry">
+        <rect>
+         <x>540</x>
+         <y>650</y>
+         <width>151</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>TOTAL MARKS</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_total">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>650</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_cgpa">
+       <property name="geometry">
+        <rect>
+         <x>530</x>
+         <y>250</y>
+         <width>81</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>CGPA of</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_subject_teach">
+       <property name="geometry">
+        <rect>
+         <x>610</x>
+         <y>250</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;</string>
+       </property>
+       <property name="text">
+        <string>Suject</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="line_cgpa_sub">
+       <property name="geometry">
+        <rect>
+         <x>710</x>
+         <y>250</y>
+         <width>71</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(255, 0, 0);</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mo5">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>360</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>out of 15</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mo4">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>410</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>out of 15</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mo3">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>470</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>out of 20</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mo2">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>520</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>out of 50</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_mo1">
+       <property name="geometry">
+        <rect>
+         <x>820</x>
+         <y>640</y>
+         <width>121</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+font: 75 italic 12pt &quot;Times New Roman&quot;;</string>
+       </property>
+       <property name="text">
+        <string>out of 100</string>
+       </property>
+      </widget>
+      <zorder>button_show_teach</zorder>
+      <zorder>plain_teach_marks</zorder>
+      <zorder>list_teach_sec</zorder>
+      <zorder>list_std_view</zorder>
+      <zorder>label_mid1</zorder>
+      <zorder>label_final</zorder>
+      <zorder>label_mid2</zorder>
+      <zorder>label_sessional</zorder>
+      <zorder>button_edit_mu</zorder>
+      <zorder>button_save_mu</zorder>
+      <zorder>label_std_name</zorder>
+      <zorder>label_time</zorder>
+      <zorder>lineEdit_mid1</zorder>
+      <zorder>lineEdit_mid2</zorder>
+      <zorder>lineEdit_finalmarks</zorder>
+      <zorder>lineEdit_sessional</zorder>
+      <zorder>label_total</zorder>
+      <zorder>lineEdit_total</zorder>
+      <zorder>label_cgpa</zorder>
+      <zorder>label_subject_teach</zorder>
+      <zorder>line_cgpa_sub</zorder>
+      <zorder>label_mo5</zorder>
+      <zorder>label_mo4</zorder>
+      <zorder>label_mo3</zorder>
+      <zorder>label_mo2</zorder>
+      <zorder>label_mo1</zorder>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Update Attendence</string>
+      </attribute>
+      <widget class="QWidget" name="widget_2" native="true">
+       <property name="geometry">
+        <rect>
+         <x>780</x>
+         <y>740</y>
+         <width>120</width>
+         <height>80</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QWidget" name="widget_table_attend" native="true">
+       <property name="geometry">
+        <rect>
+         <x>300</x>
+         <y>160</y>
+         <width>1101</width>
+         <height>671</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-image: url(:/buttons/calender.jpg);</string>
+       </property>
+       <widget class="QComboBox" name="comboBox_sun1">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>71</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_mon2">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_tues3">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_wed4">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_thurs5">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_fri6">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sat7">
+        <property name="geometry">
+         <rect>
+          <x>930</x>
+          <y>70</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sun8">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_mon9">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_tues10">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_wed11">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_thurs12">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_fri13">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sat14">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>200</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sun15">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_mon16">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_tues17">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_wed18">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_thurs19">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_fri20">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sat21">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>330</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sun22">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_mon23">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_tues24">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_wed25">
+        <property name="geometry">
+         <rect>
+          <x>470</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_thurs26">
+        <property name="geometry">
+         <rect>
+          <x>630</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_fri27">
+        <property name="geometry">
+         <rect>
+          <x>780</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sat28">
+        <property name="geometry">
+         <rect>
+          <x>940</x>
+          <y>460</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_sun29">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>590</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_mon30">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>590</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+       <widget class="QComboBox" name="comboBox_tues31">
+        <property name="geometry">
+         <rect>
+          <x>320</x>
+          <y>590</y>
+          <width>131</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background:none;color:black;</string>
+        </property>
+        <item>
+         <property name="text">
+          <string>-</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>present</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Absent</string>
+         </property>
+        </item>
+       </widget>
+      </widget>
+      <widget class="QComboBox" name="combo_month">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>50</y>
+         <width>211</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background:rgb(255, 255, 255,90);</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>January</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Feburary</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>March</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>April</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>May</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Agust</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>September</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>October</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>November</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>December</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QListWidget" name="listWidget_std_sec_attend">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>160</y>
+         <width>256</width>
+         <height>661</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,98);</string>
+       </property>
+      </widget>
+      <widget class="QListWidget" name="listWidget_std_list_attend">
+       <property name="geometry">
+        <rect>
+         <x>1440</x>
+         <y>160</y>
+         <width>256</width>
+         <height>661</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(255, 255, 255,98);</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="button_upload">
+       <property name="geometry">
+        <rect>
+         <x>652</x>
+         <y>860</y>
+         <width>191</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#button_upload{
+
+background: rgba(255, 255, 255,100);
+border-image: url(:/buttons/b_l_n.png);
+border:none;
+padding:0px;
+border-repeat:none;
+background:none;
+color:#a3a3a3;
+}
+#button_upload:pressed{
+border-image: url(:/buttons/b_l_p.png);}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Upload</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>1240</x>
+      <y>1110</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:none;color:black;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>present</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Absent</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
