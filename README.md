@@ -27,5 +27,5 @@ It can also add a student with respected section and certain number of courses a
 The teacher class can edit marks and attendance and a particular section of students and the student class will be able to view their information and can view their attendance and marks.
 
 ## How to run
-### NOTE:You must have QT Creator installed
+#### NOTE:  You must have QT Creator installed
 To run this you simple need to clone the repository and run the `FINALCP_PROJECT.pro` file located in Project Source Files.
