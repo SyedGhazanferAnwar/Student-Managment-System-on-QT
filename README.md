@@ -11,9 +11,9 @@ HOD area
 
 The tools used in this projects are,
 
-QT creator
-C++
-OOP
+* QT creator
+* C++
+* OOP
  
 
 ## Project Description:
